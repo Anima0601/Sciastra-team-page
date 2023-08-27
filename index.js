@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-const port = 3000;
+const port = "https://sciastra-team-page-orpin.vercel.app/";
 
 app.use(express.static("public"));
 app.get("/",(req,res)=>{
