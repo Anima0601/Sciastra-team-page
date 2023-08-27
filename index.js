@@ -4,7 +4,7 @@ const port = "https://sciastra-team-page-orpin.vercel.app/";
 
 app.use(express.static("public"));
 app.get("/",(req,res)=>{
-    res.render("index.ejs");
+    res.render("index.html");
   })
 
   
