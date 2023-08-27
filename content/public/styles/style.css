@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500&family=Playfair+Display:wght@500&family=Poppins:wght@400;600;800&display=swap');
+
+
+body{
+    margin:0;
+}
+
+
+h1{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-Size: 57px;
+    text-align: center;
+    margin-top:4rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+          
+}
+
+.box{
+    margin:2rem 0;
+}
+
+.parabox{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color:#3236ad;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin:3rem;
+}
+
+.col{
+    font-weight: 500;
+    font-family: 'Bitter', serif;;
+    font-size: 18px;
+    color:#173783;
+    text-align: center;
+    padding:3.5rem 1rem;
+    margin:1rem 4rem;
+    border: 0.1rem solid #742eff;
+    border-radius:0.5rem;
+    text-align: center;
+    -webkit-box-shadow: 4px 3px 26px -16px rgba(46,45,46,1);
+-moz-box-shadow: 4px 3px 26px -16px rgba(46,45,46,1);
+box-shadow: 4px 3px 26px -16px rgba(46,45,46,1);
+
+}
+
+ .box2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#5500ff;
+    font-size: 49px;
+    text-align: center;
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top:10rem;
+ }
+
+.mentorbox .row .col{
+    border: none;
+    box-shadow: none;
+   
+}
+
+ .row .col img{
+  height:17rem;
+}
+
+ .row .col .name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#471e9a;
+    font-size: 25px;
+}
+
+.row .col .uni{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:#3236ad;
+}
+
+.box3 .row .col{
+    border: none;
+    box-shadow: none;
+}
+
+.box3 .row .col button {
+    position: relative;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border:1px solid #7d2ae8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #173783;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+  }
+  
+  .box3 .row .col button:active {
+    transform: scale(0.96);
+  }
+  
+  .box3 .row .col button:before,
+  .box3 .row .col button:after {
+    position: absolute;
+    content: "";
+    width: 150%;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+    z-index: -1000;
+    background-repeat: no-repeat;
+  }
+  
+  .box3 .row .col button:hover:before {
+    top: -70%;
+    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+      10% 10%, 18% 18%;
+    background-position: 50% 120%;
+    animation: greentopBubbles 0.6s ease;
+  }
+  
+  @keyframes greentopBubbles {
+    0% {
+      background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+        40% 90%, 55% 90%, 70% 90%;
+    }
+  
+    50% {
+      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+        50% 50%, 65% 20%, 90% 30%;
+    }
+  
+    100% {
+      background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+        50% 40%, 65% 10%, 90% 20%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+  
+  .box3 .row .col button:hover::after {
+    bottom: -70%;
+    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+      radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+    background-position: 50% 0%;
+    animation: greenbottomBubbles 0.6s ease;
+  }
+  
+  @keyframes greenbottomBubbles {
+    0% {
+      background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+        70% -10%, 70% 0%;
+    }
+  
+    50% {
+      background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+        105% 0%;
+    }
+  
+    100% {
+      background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+        110% 10%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+
+
+footer{
+    background-image: url("/images/188825.jpg");
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: none;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom:none;
+    height:70px;
+    padding: 70px;
+    color: white; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.pagename{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top:20px;
+    margin-bottom: 0;
+}
